@@ -215,10 +215,3 @@ Execute the following command to initiate the development environment
 ```
 docker compose up
 ```
-
-Execute the following command to fix 404 errors (in the future added to the docker image)
-
-```
-docker compose exec jupyter bash
-python3 -m IPython kernelspec install-self
-```
