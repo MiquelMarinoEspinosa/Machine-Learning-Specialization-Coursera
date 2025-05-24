@@ -10,5 +10,6 @@ RUN pip install --no-cache-dir scikit-learn \
 	xgboost \
 	seaborn \
 	tensorflow \
-	ipywidgets
+	ipywidgets \
+	sympy
 RUN conda install -y -q -c conda-forge nodejs
